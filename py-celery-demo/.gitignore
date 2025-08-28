@@ -1,0 +1,14 @@
+**/.pytest_cache/
+.venv/
+.idea/
+.env
+
+**/__pycache__
+
+.mypy_cache/
+uv.lock
+.python-version
+logs/
+
+mysql/
+redis/

@@ -1,0 +1,23 @@
+[project]
+name = "py-stock-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "baostock>=0.8.9",
+    "fastapi[standard]>=0.116.1",
+    "loguru>=0.7.3",
+    "pandas>=2.3.1",
+    "pydantic>=2.11.7",
+    "pytest>=8.4.1",
+    "rich>=14.1.0",
+    "uvicorn[standard]>=0.35.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-s"
+testpaths = [
+    "test"
+]

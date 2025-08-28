@@ -1,0 +1,22 @@
+[project]
+name = "py-celery-demo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "celery>=5.5.3",
+    "fastapi[all]>=0.116.1",
+    "loguru>=0.7.3",
+    "pymysql>=1.1.2",
+    "python-dotenv>=1.1.1",
+    "redis>=6.4.0",
+    "sqlmodel>=0.0.24",
+    "uvicorn[standard]>=0.35.0",
+    "black>=25.1.0",
+    "pytest>=8.4.1",
+    "pytest-sugar>=1.1.1",
+    "mypy>=1.17.1",
+]
+
+
